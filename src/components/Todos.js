@@ -41,7 +41,7 @@ function Todos() {
 
   return (
     <div>
-      <h1>Enter your todos</h1>
+      <h1>Enter your tasks</h1>
       <TodoForm onSubmit={addTodo} />
       <Todo
         todos={todos}
